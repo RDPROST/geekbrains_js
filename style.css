@@ -94,6 +94,7 @@ body{
 .container p {
     color: #34495e;
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .container p:nth-last-child(1){
