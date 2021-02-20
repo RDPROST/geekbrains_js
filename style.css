@@ -89,6 +89,7 @@ body{
     -moz-box-shadow: 0 0 39px 24px rgba(34, 60, 80, 0.2);
     box-shadow: 0 0 39px 24px rgba(34, 60, 80, 0.2);
     color: #ecf0f1;
+    text-align: center;
 }
 
 .container p {
