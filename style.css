@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-thin.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-thinitalic.ttf);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-light.ttf);
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-lightitalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-regular.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-italic.ttf);
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-bolditalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-black.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/lato-blackitalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*# sourceMappingURL=fonts.css.map */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.container{
+    font-family: Lato, sans-serif;
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 550px;
+    padding: 40px;
+    background-color: #3498db;
+    border-radius: 30px;
+    -webkit-box-shadow: 0 0 39px 24px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0 0 39px 24px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 39px 24px rgba(34, 60, 80, 0.2);
+    color: #ecf0f1;
+}
+
+.container p {
+    color: #34495e;
+    margin-bottom: 50px;
+}
+
+.container p:nth-last-child(1){
+    margin-bottom: 0;
+}
