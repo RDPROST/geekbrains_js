@@ -44,11 +44,11 @@ let cart = [
 
 function countBasketPrice(...arr) {
     let all = 0;
-    for (let i = 0; i < arguments.length; i++) {
-        all = all + cart[arguments[i]][2];
+    for (let i = 0; i < arr.length; i++) {
+        all = all + cart[arr[i]][2];
     }
 
-    return console.log("Ваша стоимость корзины составила:",all);
+    return "Ваша стоимость корзины составила: " + all;
 }
 
 countBasketPrice(0, 1, 2, 3, 4);
